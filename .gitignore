@@ -1,0 +1,59 @@
+# Node modules
+node_modules/
+frontend/node_modules/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Build outputs
+dist/
+build/
+frontend/build/
+
+# Dependency directories
+jspm_packages/
+
+# Optional npm cache directory
+.npm
+
+# Debug
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Coverage reports
+coverage/
+
+# Optional ESLint cache
+.eslintcache
+
+# Parcel cache
+.cache/
+
+# Binaries
+*.exe
+*.out
+*.app
+
+# React Native
+.expo/
+
+# Misc
+*.tgz
