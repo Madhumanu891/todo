@@ -3,8 +3,8 @@ const mongoose=require("mongoose")
 const taskSchema=new mongoose.Schema({
     "_id":String,
     "desc":String,
-    "startdate":Date,
-    "enddate":Date,
+    "startdate":String,
+    "enddate":String,
     "iscompleted":{
         type:Boolean,
         default:false
