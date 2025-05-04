@@ -1,0 +1,280 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(135deg, #6e8efb, #a777e3);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+/* Main form container box */
+.register-box {
+  background-color: #ffffff;
+  padding: 30px 40px;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+}
+
+.heading {
+  font-size: 2rem;
+  color: #6e8efb;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.con1 {
+  display: flex;
+  flex-direction: column;
+  margin: 15px 0;
+}
+
+.label {
+  color: #333;
+  font-size: 1rem;
+  margin-bottom: 5px;
+  text-align: left;
+}
+
+.reg {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 1rem;
+  outline: none;
+  transition: box-shadow 0.3s ease;
+}
+
+.reg:focus {
+  box-shadow: 0 0 5px #6e8efb;
+  border-color: #6e8efb;
+}
+
+.regbtn {
+  background-color: #6e8efb;
+  color: #fff;
+  border: none;
+  padding: 12px;
+  border-radius: 25px;
+  font-size: 1rem;
+  margin-top: 20px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.regbtn:hover {
+  background-color: #5a75e4;
+  transform: scale(1.03);
+}
+
+.signin {
+  color: #666;
+  margin-top: 20px;
+  font-size: 0.95rem;
+}
+
+.signin a {
+  color: #6e8efb;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+
+/* For login Css */
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(135deg, #6e8efb, #a777e3);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.login-box {
+  background-color: #ffffff;
+  padding: 30px 40px;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+}
+
+.heading {
+  font-size: 2rem;
+  color: #6e8efb;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.con1 {
+  display: flex;
+  flex-direction: column;
+  margin: 15px 0;
+}
+
+.label {
+  color: #333;
+  font-size: 1rem;
+  margin-bottom: 5px;
+  text-align: left;
+}
+
+.reg {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 1rem;
+  outline: none;
+  transition: box-shadow 0.3s ease;
+}
+
+.reg:focus {
+  box-shadow: 0 0 5px #6e8efb;
+  border-color: #6e8efb;
+}
+
+.regbtn {
+  background-color: #6e8efb;
+  color: #fff;
+  border: none;
+  padding: 12px;
+  border-radius: 25px;
+  font-size: 1rem;
+  margin-top: 20px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.regbtn:hover {
+  background-color: #5a75e4;
+  transform: scale(1.03);
+}
+
+.signin {
+  color: #666;
+  margin-top: 20px;
+  font-size: 0.95rem;
+}
+
+.signin a {
+  color: #6e8efb;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+
+/* disp */
+.taskform {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  padding: 20px;
+  background-color: #ffffff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.taskform input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 14px;
+  width: 200px;
+}
+
+.taskform button {
+  padding: 10px 15px;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.taskform button:hover {
+  background-color: #0056b3;
+}
+
+.tasktable{
+  width: 90%;
+}
+
+.tasktable, .completedtask {
+  margin: 30px auto;
+  width: 90%;
+  max-width: 1200px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+th, td {
+  padding: 12px 15px;
+  border: 1px solid #ddd;
+  text-align: center;
+}
+
+th {
+  background-color: #343a40;
+  color: white;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+/* ============================= */
+/* Separate styles for buttons  */
+/* ============================= */
+.completedtask{
+  width: 90%;
+  padding-left: 60px;
+}
+
+button {
+  padding: 8px 12px;
+  margin: 2px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+/* Button variants */
+button.edit-btn {
+  background-color: #ffc107;
+  color: #000;
+}
+
+button.delete-btn {
+  background-color: #dc3545;
+  color: white;
+}
+
+button.complete-btn {
+  background-color: #28a745;
+  color: white;
+}
+
+h3{
+  margin-top: 60px;
+}

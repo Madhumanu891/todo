@@ -1,10 +1,12 @@
 const mongoose=require("mongoose")
 
 const taskSchema=new mongoose.Schema({
-    "_id":String,
+    "userId":{
+        type:mongoose.Schema.Types.ObjectId,
+        ref:"userdetails"
+    },
     "desc":String,
-    "startdate":String,
-    "enddate":String,
+    "deadline":String,
     "iscompleted":{
         type:Boolean,
         default:false
